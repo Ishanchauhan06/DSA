@@ -34,7 +34,6 @@ int partition(int* arr, int s, int e){
 }
 void quicksort(int* arr, int s, int e ){
     if(s<e){
-        // cout<<"HI"<<" ";
     int p = partition(arr,s,e);
     //left part
     quicksort(arr,s,p-1);
