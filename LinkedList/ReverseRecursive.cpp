@@ -1,9 +1,8 @@
-// A complete working C++ program to demonstrate
-// all insertion methods on Linked List
+
 #include <bits/stdc++.h>
 using namespace std;
 
-// A linked list node
+
 class Node
 {
 	public:
@@ -68,4 +67,4 @@ int main()
 }
 
 
-// This code is contributed by rathbhupendra, arkajyotibasak
+
