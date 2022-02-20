@@ -22,6 +22,7 @@ void display(node* &head){
 }
 // deletion function what will delete the data of particular node
 void deletenode(node* &head, int key){
+    
     node* temp = head ;
     node* prev= NULL;
     // if deleting data is of head
@@ -54,7 +55,9 @@ int main(){
  node* n4 = new node(40);
  n3->next = n4;
  display(head);
- deletenode(head,30);
+ deletenode(head,40);
+ display(head);
+ deletenode(head,50);
  display(head);
  return 0;
 }
